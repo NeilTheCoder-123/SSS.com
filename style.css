@@ -1,0 +1,58 @@
+.strigger:hover, .strigger:active{
+    /*background-color: #d6d6d6;*/
+    background-image: linear-gradient(140deg, #ea00ff 0%, #ff0062 50%, #ff0000 75%);
+}
+
+#label{
+    font-family: 'Fugaz One', cursive;
+    font-size: xx-large;
+    color: honeydew;
+}
+
+#frequency{
+    font-family: 'Fugaz One', cursive;
+    font-size: xx-large;
+    color: honeydew;
+}
+
+#stbd{
+    font-family: 'Fugaz One', cursive;
+    font-size: xx-large;
+    color: honeydew;
+}
+
+.custom{
+    font-family: 'Audiowide', cursive;
+    font-size: x-large;
+    margin-top: 15pt;
+}
+
+.custom:hover{
+    background-image: linear-gradient(140deg, #ea00ff 0%, #ff0062 50%, #ff0000 75%);
+}
+
+#score{
+    float: left; 
+    margin-left: 25pt; 
+    font-size: xx-large; 
+    font-family: 'Concert One', cursive;
+}
+
+#timer{
+    float: right; 
+    margin-right: 45pt; 
+    font-size: xx-large; 
+    font-family: 'Concert One', cursive;
+    color: wheat;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none !important;
+    outline-offset: 0px !important;
+}
+
+canvas{
+    margin-top: 3.5in;
+    border-radius: 2.5vmax;
+    box-shadow: 1px 1px 1000px rgb(255, 255, 255);
+}
